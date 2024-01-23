@@ -1,0 +1,51 @@
+*{box-sizing: border-box;}
+
+body,
+html {padding: 0; margin: 0}
+
+/* con l'asterisco seleziono tutto ciò che è all'interno del mio css */
+body{
+   background: #ebebeb;
+   font-family: Arial;
+}
+
+p{color: #000; font-size: 16px;}
+
+a{color: #0f5d3d; text-decoration: none;}
+
+/* classe per avere un'immagine che si adatta alle dimensioni dello schermo */
+.img-res{width: 100%; height: auto;}
+
+
+h1, h2, h3{color: #333}
+
+.container{padding: 15px;}
+
+header{background: #ffff; padding: 25px 15px 5px 15px; width: 100%;} 
+
+.logo{text-align: center; width: 100%; display: block; font-size: 20px;}
+
+
+#menu-principale{text-align: center;} 
+#menu-principale li{display: inline;}
+#menu-principale li a{margin: 10px}
+
+
+/* sto cazzo di grid non funzia e non si sa il perché */
+/* quello che non funziona qui è il blocco figlio di blocco*/
+/* quindi grid e all'interno col-33 */
+
+.grid{
+    border: 2px solid red;
+    display: flex;
+}
+
+/* .col-33{
+   border: 1px solid green;
+   width: 20%;
+   padding: 15px;
+} */
+
+
+footer{background: #333; padding: 20px;}
+footer p{color: #ffff}
